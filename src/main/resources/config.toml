@@ -1,0 +1,27 @@
+[bits."superbit"]
+name = "&bСупер Бур"
+description = [" &f2x2x2", " &fИзготовлен в Индии"]
+material = "GOLDEN_PICKAXE"
+custommodeldata = 1
+x = 2
+y = 2
+z = 2
+
+[bits."ultrabit"]
+name = "&6Ультра Бур"
+description = [" &f4x4x4", " &fИзготовлен на Марсе"]
+material = "DIAMOND_PICKAXE"
+custommodeldata = 1
+x = 4
+y = 4
+z = 4
+
+[blockedBlocks]
+bedrock = "BEDROCK"
+grass = "GRASS_BLOCK"
+
+[messages]
+received-bit = "&x&7&1&9&4&5&0Получен бур&f."
+usage = "&fИспользование &x&5&3&1&F&1&F/bit (Имя игрока) (Айди бура) &x&5&3&4&4&4&4-s"
+player-offline = "&x&5&3&1&F&1&FИгрок &fоффлайн."
+bit-null = "&fБур &x&5&3&1&F&1&Fне найден&f."

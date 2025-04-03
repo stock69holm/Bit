@@ -1,0 +1,10 @@
+name: Bit
+version: '${version}'
+main: net.stockholm.bit.Bit
+api-version: '1.16'
+authors: [stockholm]
+softdepend:
+  - WorldEdit
+  - WorldGuard
+commands:
+  bit:
