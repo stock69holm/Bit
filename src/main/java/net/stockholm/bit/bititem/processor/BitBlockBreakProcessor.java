@@ -11,6 +11,7 @@ import net.stockholm.bit.config.Config;
 import net.stockholm.item.ItemBuilder;
 import org.bukkit.Location;
 import org.bukkit.Material;
+import org.bukkit.Particle;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 
@@ -59,6 +60,7 @@ public class BitBlockBreakProcessor {
 
                     block.setType(Material.AIR, false);
                     world.dropItem(mutableLocation.clone(), new ItemBuilder(blockType).build());
+                    world.spawnParticle(Particle.CLOUD, mutableLocation.clone(), 1);
                 }
             }
         }

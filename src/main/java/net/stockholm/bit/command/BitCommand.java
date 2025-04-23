@@ -33,7 +33,7 @@ public class BitCommand implements ConsoleCommand {
             return;
         }
 
-        if (!args.contains("-s")) sender.sendMessage(Color.apply(Config.RECEIVED_BIT));
+        if (!args.contains("-s")) targetPlayer.sendMessage(Color.apply(Config.RECEIVED_BIT));
 
         targetPlayer.getInventory().addItem(bitItem.getItemStack());
     }

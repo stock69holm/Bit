@@ -6,7 +6,6 @@ import net.stockholm.bit.command.BitCommand;
 import net.stockholm.bit.config.Config;
 import net.stockholm.bit.listener.BitListener;
 import net.stockholm.command.consolecommand.manager.ConsoleCommandManager;
-import net.stockholm.command.playercommand.manager.PlayerCommandManager;
 import net.stockholm.util.Color;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
